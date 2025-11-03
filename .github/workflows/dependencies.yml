@@ -16,4 +16,4 @@ jobs:
         with:
           node-version: '20.x'
       - name: verification
-      - run: ls -alhR
+        run: ls -alhR
