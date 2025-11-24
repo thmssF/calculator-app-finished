@@ -19,3 +19,5 @@ jobs:
         run: ls -alhR
       - name: bundle
         run: zip -r app.zip app.js routes.js server.js node_modules
+      - name: run tests
+        run: npm tests --coverage
